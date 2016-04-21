@@ -11,6 +11,6 @@ function merge_sort(&$array, $p, $r)
     }
 }
 
-$array = [1, 3, 2, 4,8, 2, 2, 3, 9];
+$array = [1, 3, 2, 4, 8, 2, 2, 3, 9];
 merge_sort($array, 0, count($array) - 1);
 var_export($array);
